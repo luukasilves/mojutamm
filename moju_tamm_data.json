@@ -158,9 +158,9 @@
       "area": 2,
       "current_score": 1.5,
       "baseline_2031": 1.6,
-      "baseline_2036": 1.6,
-      "ai_2031": 2.0,
-      "ai_2036": 2.5
+      "ai_2031": 1.8,
+      "ai_2035": 2.0,
+      "baseline_2035": 1.6
     },
     "leaf_02": {
       "name_et": "Eriarstiabita jäänud",
@@ -174,9 +174,9 @@
       "area": 2,
       "current_score": 1.5,
       "baseline_2031": 1.6,
-      "baseline_2036": 1.6,
-      "ai_2031": 2.0,
-      "ai_2036": 2.5
+      "ai_2031": 2.2,
+      "ai_2035": 2.8,
+      "baseline_2035": 1.6
     },
     "leaf_03": {
       "name_et": "Ülemäärase kehakaaluga elanikud",
@@ -190,9 +190,9 @@
       "area": 2,
       "current_score": 2,
       "baseline_2031": 2.1,
-      "baseline_2036": 2.1,
-      "ai_2031": 2.5,
-      "ai_2036": 3.0
+      "ai_2031": 2.1,
+      "ai_2035": 2.1,
+      "baseline_2035": 2.1
     },
     "leaf_04": {
       "name_et": "Alkoholi tarbimine",
@@ -206,9 +206,9 @@
       "area": 2,
       "current_score": 1.5,
       "baseline_2031": 1.6,
-      "baseline_2036": 1.6,
-      "ai_2031": 2.0,
-      "ai_2036": 2.5
+      "ai_2031": 1.6,
+      "ai_2035": 1.6,
+      "baseline_2035": 1.6
     },
     "leaf_05": {
       "name_et": "Välditavad surmad",
@@ -222,9 +222,9 @@
       "area": 2,
       "current_score": 1.5,
       "baseline_2031": 1.6,
-      "baseline_2036": 1.6,
-      "ai_2031": 2.0,
-      "ai_2036": 2.5
+      "ai_2031": 2,
+      "ai_2035": 2.4,
+      "baseline_2035": 1.6
     },
     "leaf_06": {
       "name_et": "Enesetapud",
@@ -238,9 +238,9 @@
       "area": 2,
       "current_score": 1.5,
       "baseline_2031": 1.6,
-      "baseline_2036": 1.6,
-      "ai_2031": 2.0,
-      "ai_2036": 2.5
+      "ai_2031": 1.8,
+      "ai_2035": 2.0,
+      "baseline_2035": 1.6
     },
     "leaf_07": {
       "name_et": "Oodatav eluiga",
@@ -254,9 +254,9 @@
       "area": 2,
       "current_score": 3,
       "baseline_2031": 3.1,
-      "baseline_2036": 3.1,
       "ai_2031": 3.5,
-      "ai_2036": 3.5
+      "ai_2035": 3.5,
+      "baseline_2035": 3.1
     },
     "leaf_08": {
       "name_et": "Ohtlikesse nakkushaigustesse haigestumine",
@@ -270,9 +270,9 @@
       "area": 2,
       "current_score": 1.5,
       "baseline_2031": 1.6,
-      "baseline_2036": 1.6,
-      "ai_2031": 2.0,
-      "ai_2036": 2.5
+      "ai_2031": 2,
+      "ai_2035": 2.4,
+      "baseline_2035": 1.6
     },
     "leaf_09": {
       "name_et": "Tervena elada jäänud aastad",
@@ -286,9 +286,9 @@
       "area": 2,
       "current_score": 2,
       "baseline_2031": 2.1,
-      "baseline_2036": 2.1,
       "ai_2031": 2.5,
-      "ai_2036": 3.0
+      "ai_2035": 2.9,
+      "baseline_2035": 2.1
     },
     "leaf_10": {
       "name_et": "Tubaka tarbimine",
@@ -302,9 +302,9 @@
       "area": 2,
       "current_score": 1.5,
       "baseline_2031": 1.6,
-      "baseline_2036": 1.6,
-      "ai_2031": 2.0,
-      "ai_2036": 2.5
+      "ai_2031": 1.6,
+      "ai_2035": 1.6,
+      "baseline_2035": 1.6
     },
     "leaf_11": {
       "name_et": "Suremus kroonilistesse haigustesse",
@@ -318,9 +318,9 @@
       "area": 2,
       "current_score": 2,
       "baseline_2031": 2.1,
-      "baseline_2036": 2.1,
       "ai_2031": 2.5,
-      "ai_2036": 3.0
+      "ai_2035": 2.9,
+      "baseline_2035": 2.1
     },
     "leaf_12": {
       "name_et": "Ülemäärase kehakaaluga elanikud",
@@ -334,9 +334,9 @@
       "area": 2,
       "current_score": 2,
       "baseline_2031": 2.1,
-      "baseline_2036": 2.1,
-      "ai_2031": 2.5,
-      "ai_2036": 3.0
+      "ai_2031": 2.1,
+      "ai_2035": 2.1,
+      "baseline_2035": 2.1
     },
     "leaf_13": {
       "name_et": "Tervena elada jäänud aastad",
@@ -350,9 +350,9 @@
       "area": 2,
       "current_score": 1,
       "baseline_2031": 1.1,
-      "baseline_2036": 1.1,
       "ai_2031": 1.5,
-      "ai_2036": 2.0
+      "ai_2035": 1.9,
+      "baseline_2035": 1.1
     },
     "leaf_14": {
       "name_et": "Tervena elada jäänud aastad",
@@ -366,9 +366,9 @@
       "area": 2,
       "current_score": 2,
       "baseline_2031": 2.1,
-      "baseline_2036": 2.1,
       "ai_2031": 2.5,
-      "ai_2036": 3.0
+      "ai_2035": 2.9,
+      "baseline_2035": 2.1
     },
     "leaf_21": {
       "name_et": "Eestit turvaliseks riigiks pidavad elanikud",
@@ -382,9 +382,9 @@
       "area": 13,
       "current_score": 2,
       "baseline_2031": 2.0,
-      "baseline_2036": 1.8,
-      "ai_2031": 2.4,
-      "ai_2036": 2.7
+      "ai_2031": 2.1,
+      "ai_2035": 2.1,
+      "baseline_2035": 1.8
     },
     "leaf_22": {
       "name_et": "Eestit turvaliseks riigiks pidavad elanikud",
@@ -398,9 +398,9 @@
       "area": 13,
       "current_score": 3,
       "baseline_2031": 3.0,
-      "baseline_2036": 2.8,
-      "ai_2031": 3.4,
-      "ai_2036": 3.5
+      "ai_2031": 3.1,
+      "ai_2035": 3.0,
+      "baseline_2035": 2.8
     },
     "leaf_31": {
       "name_et": "Taastuvenergia",
@@ -414,9 +414,9 @@
       "area": 8,
       "current_score": 3,
       "baseline_2031": 3.0,
-      "baseline_2036": 2.9,
       "ai_2031": 3.1,
-      "ai_2036": 3.2
+      "ai_2035": 3.2,
+      "baseline_2035": 2.9
     },
     "leaf_32": {
       "name_et": "Energiakulutused kodumajapidamistes",
@@ -430,9 +430,9 @@
       "area": 8,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.4,
       "ai_2031": 1.6,
-      "ai_2036": 1.7
+      "ai_2035": 1.7,
+      "baseline_2035": 1.4
     },
     "leaf_33": {
       "name_et": "Energia tootlikkus",
@@ -446,9 +446,9 @@
       "area": 8,
       "current_score": 1,
       "baseline_2031": 1.0,
-      "baseline_2036": 0.9,
       "ai_2031": 1.1,
-      "ai_2036": 1.2
+      "ai_2035": 1.2,
+      "baseline_2035": 0.9
     },
     "leaf_34": {
       "name_et": "Energiasõltuvus",
@@ -462,9 +462,9 @@
       "area": 8,
       "current_score": 3,
       "baseline_2031": 3.0,
-      "baseline_2036": 2.9,
-      "ai_2031": 3.1,
-      "ai_2036": 3.2
+      "ai_2031": 3,
+      "ai_2035": 2.9,
+      "baseline_2035": 2.9
     },
     "leaf_35": {
       "name_et": "Taastuvenergia",
@@ -478,9 +478,9 @@
       "area": 8,
       "current_score": 1,
       "baseline_2031": 1.0,
-      "baseline_2036": 0.9,
       "ai_2031": 1.1,
-      "ai_2036": 1.2
+      "ai_2035": 1.2,
+      "baseline_2035": 0.9
     },
     "leaf_36": {
       "name_et": "Taastuvenergia",
@@ -494,9 +494,9 @@
       "area": 8,
       "current_score": 2,
       "baseline_2031": 2.0,
-      "baseline_2036": 1.9,
       "ai_2031": 2.1,
-      "ai_2036": 2.2
+      "ai_2035": 2.2,
+      "baseline_2035": 1.9
     },
     "leaf_41": {
       "name_et": "Baastasemel digipädevusega elanikud",
@@ -510,9 +510,9 @@
       "area": 3,
       "current_score": 3,
       "baseline_2031": 3.1,
-      "baseline_2036": 3.0,
-      "ai_2031": 3.2,
-      "ai_2036": 3.3
+      "ai_2031": 3.3,
+      "ai_2035": 3.5,
+      "baseline_2035": 3.0
     },
     "leaf_42": {
       "name_et": "Täiskasvanute elukestvas õppes osalemine",
@@ -526,9 +526,9 @@
       "area": 3,
       "current_score": 1.5,
       "baseline_2031": 1.6,
-      "baseline_2036": 1.5,
-      "ai_2031": 1.7,
-      "ai_2036": 1.8
+      "ai_2031": 1.8,
+      "ai_2035": 2.0,
+      "baseline_2035": 1.5
     },
     "leaf_43": {
       "name_et": "Kolmanda taseme haridus",
@@ -542,9 +542,9 @@
       "area": 3,
       "current_score": 3,
       "baseline_2031": 3.1,
-      "baseline_2036": 3.0,
       "ai_2031": 3.2,
-      "ai_2036": 3.3
+      "ai_2035": 3.3,
+      "baseline_2035": 3.0
     },
     "leaf_44": {
       "name_et": "Eri- või kutseharidusega täiskasvanud",
@@ -558,9 +558,9 @@
       "area": 3,
       "current_score": 1.5,
       "baseline_2031": 1.6,
-      "baseline_2036": 1.5,
       "ai_2031": 1.7,
-      "ai_2036": 1.8
+      "ai_2035": 1.8,
+      "baseline_2035": 1.5
     },
     "leaf_45": {
       "name_et": "Noored, kes ei õpi ega tööta",
@@ -574,9 +574,9 @@
       "area": 3,
       "current_score": 2,
       "baseline_2031": 2.1,
-      "baseline_2036": 2.0,
       "ai_2031": 2.2,
-      "ai_2036": 2.3
+      "ai_2035": 2.3,
+      "baseline_2035": 2.0
     },
     "leaf_46": {
       "name_et": "Huviharidus",
@@ -590,9 +590,9 @@
       "area": 3,
       "current_score": 1.5,
       "baseline_2031": 1.6,
-      "baseline_2036": 1.5,
-      "ai_2031": 1.7,
-      "ai_2036": 1.8
+      "ai_2031": 1.6,
+      "ai_2035": 1.5,
+      "baseline_2035": 1.5
     },
     "leaf_47": {
       "name_et": "Madala haridustasemega noored",
@@ -606,9 +606,9 @@
       "area": 3,
       "current_score": 2,
       "baseline_2031": 2.1,
-      "baseline_2036": 2.0,
       "ai_2031": 2.2,
-      "ai_2036": 2.3
+      "ai_2035": 2.3,
+      "baseline_2035": 2.0
     },
     "leaf_48": {
       "name_et": "Tippsooritustasemel õpilased",
@@ -622,9 +622,9 @@
       "area": 3,
       "current_score": 1.5,
       "baseline_2031": 1.6,
-      "baseline_2036": 1.5,
-      "ai_2031": 1.7,
-      "ai_2036": 1.8
+      "ai_2031": 1.8,
+      "ai_2035": 2.0,
+      "baseline_2035": 1.5
     },
     "leaf_49": {
       "name_et": "Täiskasvanute elukestvas õppes osalemine",
@@ -638,9 +638,9 @@
       "area": 3,
       "current_score": 1.5,
       "baseline_2031": 1.6,
-      "baseline_2036": 1.5,
-      "ai_2031": 1.7,
-      "ai_2036": 1.8
+      "ai_2031": 1.8,
+      "ai_2035": 2.0,
+      "baseline_2035": 1.5
     },
     "leaf_50": {
       "name_et": "Eri- või kutseharidusega täiskasvanud",
@@ -654,9 +654,9 @@
       "area": 3,
       "current_score": 2,
       "baseline_2031": 2.1,
-      "baseline_2036": 2.0,
       "ai_2031": 2.2,
-      "ai_2036": 2.3
+      "ai_2035": 2.3,
+      "baseline_2035": 2.0
     },
     "leaf_51": {
       "name_et": "Kolmanda taseme haridus",
@@ -670,9 +670,9 @@
       "area": 3,
       "current_score": 2,
       "baseline_2031": 2.1,
-      "baseline_2036": 2.0,
       "ai_2031": 2.2,
-      "ai_2036": 2.3
+      "ai_2035": 2.3,
+      "baseline_2035": 2.0
     },
     "leaf_52": {
       "name_et": "Doktorikraadiga inimesed",
@@ -686,9 +686,9 @@
       "area": 3,
       "current_score": 1,
       "baseline_2031": 1.1,
-      "baseline_2036": 1.0,
       "ai_2031": 1.2,
-      "ai_2036": 1.3
+      "ai_2035": 1.3,
+      "baseline_2035": 1.0
     },
     "leaf_53": {
       "name_et": "Eri- või kutseharidusega täiskasvanud",
@@ -702,9 +702,9 @@
       "area": 3,
       "current_score": 3,
       "baseline_2031": 3.1,
-      "baseline_2036": 3.0,
       "ai_2031": 3.2,
-      "ai_2036": 3.3
+      "ai_2035": 3.3,
+      "baseline_2035": 3.0
     },
     "leaf_54": {
       "name_et": "Kolmanda taseme haridus",
@@ -718,9 +718,9 @@
       "area": 3,
       "current_score": 3,
       "baseline_2031": 3.1,
-      "baseline_2036": 3.0,
       "ai_2031": 3.2,
-      "ai_2036": 3.3
+      "ai_2035": 3.3,
+      "baseline_2035": 3.0
     },
     "leaf_61": {
       "name_et": "Kodukoha turvalisus",
@@ -734,9 +734,9 @@
       "area": 11,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.4,
-      "ai_2031": 1.8,
-      "ai_2036": 2.1
+      "ai_2031": 1.6,
+      "ai_2035": 1.8,
+      "baseline_2035": 1.4
     },
     "leaf_62": {
       "name_et": "Õnnetusjuhtumite, mürgistuste ja traumade tagajärjel hukkunute arv",
@@ -750,9 +750,9 @@
       "area": 11,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.4,
       "ai_2031": 1.8,
-      "ai_2036": 2.1
+      "ai_2035": 2.0,
+      "baseline_2035": 1.4
     },
     "leaf_63": {
       "name_et": "Inimkannatanutega liiklusõnnetused teedel",
@@ -766,9 +766,9 @@
       "area": 11,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.4,
-      "ai_2031": 1.8,
-      "ai_2036": 2.1
+      "ai_2031": 1.9,
+      "ai_2035": 2.4,
+      "baseline_2035": 1.4
     },
     "leaf_64": {
       "name_et": "Vägivalla ohvrid",
@@ -782,9 +782,9 @@
       "area": 11,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.4,
-      "ai_2031": 1.8,
-      "ai_2036": 2.1
+      "ai_2031": 1.6,
+      "ai_2035": 1.8,
+      "baseline_2035": 1.4
     },
     "leaf_65": {
       "name_et": "Vägivallas hukkunud",
@@ -798,9 +798,9 @@
       "area": 11,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.4,
-      "ai_2031": 1.8,
-      "ai_2036": 2.1
+      "ai_2031": 1.6,
+      "ai_2035": 1.8,
+      "baseline_2035": 1.4
     },
     "leaf_66": {
       "name_et": "Õnnetusjuhtumite, mürgistuste ja traumade tagajärjel hukkunute arv",
@@ -814,9 +814,9 @@
       "area": 11,
       "current_score": 1,
       "baseline_2031": 1.0,
-      "baseline_2036": 0.9,
       "ai_2031": 1.3,
-      "ai_2036": 1.6
+      "ai_2035": 1.5,
+      "baseline_2035": 0.9
     },
     "leaf_67": {
       "name_et": "Kodukoha turvalisus",
@@ -830,9 +830,9 @@
       "area": 11,
       "current_score": 3,
       "baseline_2031": 3.0,
-      "baseline_2036": 2.9,
-      "ai_2031": 3.3,
-      "ai_2036": 3.5
+      "ai_2031": 3.1,
+      "ai_2035": 3.2,
+      "baseline_2035": 2.9
     },
     "leaf_68": {
       "name_et": "Õnnetusjuhtumite, mürgistuste ja traumade tagajärjel hukkunute arv",
@@ -846,9 +846,9 @@
       "area": 11,
       "current_score": 1,
       "baseline_2031": 1.0,
-      "baseline_2036": 0.9,
       "ai_2031": 1.3,
-      "ai_2036": 1.6
+      "ai_2035": 1.5,
+      "baseline_2035": 0.9
     },
     "leaf_71": {
       "name_et": "Interneti kasutamine",
@@ -862,9 +862,9 @@
       "area": 9,
       "current_score": 3,
       "baseline_2031": 3.1,
-      "baseline_2036": 3.1,
-      "ai_2031": 3.4,
-      "ai_2036": 3.5
+      "ai_2031": 3.2,
+      "ai_2035": 3.3,
+      "baseline_2035": 3.1
     },
     "leaf_72": {
       "name_et": "Kiire internetiühenduse osatähtsus",
@@ -878,9 +878,9 @@
       "area": 9,
       "current_score": 1,
       "baseline_2031": 1.1,
-      "baseline_2036": 1.1,
-      "ai_2031": 1.4,
-      "ai_2036": 1.7
+      "ai_2031": 1.2,
+      "ai_2035": 1.4,
+      "baseline_2035": 1.1
     },
     "leaf_81": {
       "name_et": "Soodsas seisundis liigid",
@@ -894,9 +894,9 @@
       "area": 4,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.2,
-      "ai_2031": 1.6,
-      "ai_2036": 1.5
+      "ai_2031": 1.5,
+      "ai_2035": 1.3,
+      "baseline_2035": 1.3
     },
     "leaf_82": {
       "name_et": "Põlevkivi kaevandamine",
@@ -910,9 +910,9 @@
       "area": 4,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.2,
-      "ai_2031": 1.6,
-      "ai_2036": 1.5
+      "ai_2031": 1.5,
+      "ai_2035": 1.3,
+      "baseline_2035": 1.3
     },
     "leaf_83": {
       "name_et": "Kasvuhoonegaaside heitkogused",
@@ -926,9 +926,9 @@
       "area": 4,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.2,
-      "ai_2031": 1.6,
-      "ai_2036": 1.5
+      "ai_2031": 1.5,
+      "ai_2035": 1.3,
+      "baseline_2035": 1.3
     },
     "leaf_84": {
       "name_et": "Kasvuhoonegaaside  netoheitkogus",
@@ -942,9 +942,9 @@
       "area": 4,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.2,
-      "ai_2031": 1.6,
-      "ai_2036": 1.5
+      "ai_2031": 1.5,
+      "ai_2035": 1.3,
+      "baseline_2035": 1.3
     },
     "leaf_85": {
       "name_et": "Kasvuhoonegaasid transpordisektoris",
@@ -958,9 +958,9 @@
       "area": 4,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.2,
-      "ai_2031": 1.6,
-      "ai_2036": 1.5
+      "ai_2031": 1.5,
+      "ai_2035": 1.3,
+      "baseline_2035": 1.3
     },
     "leaf_86": {
       "name_et": "Kaitstavad merealad",
@@ -974,9 +974,9 @@
       "area": 4,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.2,
-      "ai_2031": 1.6,
-      "ai_2036": 1.5
+      "ai_2031": 1.5,
+      "ai_2035": 1.3,
+      "baseline_2035": 1.3
     },
     "leaf_87": {
       "name_et": "Kudekarja biomass",
@@ -990,9 +990,9 @@
       "area": 4,
       "current_score": 1,
       "baseline_2031": 1.0,
-      "baseline_2036": 0.7,
-      "ai_2031": 1.1,
-      "ai_2036": 1.0
+      "ai_2031": 1,
+      "ai_2035": 0.8,
+      "baseline_2035": 0.8
     },
     "leaf_88": {
       "name_et": "Läänemere seisund",
@@ -1006,9 +1006,9 @@
       "area": 4,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.2,
-      "ai_2031": 1.6,
-      "ai_2036": 1.5
+      "ai_2031": 1.5,
+      "ai_2035": 1.3,
+      "baseline_2035": 1.3
     },
     "leaf_89": {
       "name_et": "Ringleva materjali määr",
@@ -1022,9 +1022,9 @@
       "area": 4,
       "current_score": 3,
       "baseline_2031": 3.0,
-      "baseline_2036": 2.7,
-      "ai_2031": 3.1,
-      "ai_2036": 3.0
+      "ai_2031": 3,
+      "ai_2035": 2.9,
+      "baseline_2035": 2.8
     },
     "leaf_90": {
       "name_et": "Rangelt kaitstavad metsamaad",
@@ -1038,9 +1038,9 @@
       "area": 4,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.2,
-      "ai_2031": 1.6,
-      "ai_2036": 1.5
+      "ai_2031": 1.5,
+      "ai_2035": 1.3,
+      "baseline_2035": 1.3
     },
     "leaf_91": {
       "name_et": "Happevihmasid põhjustavate gaaside heide",
@@ -1054,9 +1054,9 @@
       "area": 4,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.2,
-      "ai_2031": 1.6,
-      "ai_2036": 1.5
+      "ai_2031": 1.5,
+      "ai_2035": 1.3,
+      "baseline_2035": 1.3
     },
     "leaf_92": {
       "name_et": "Soodsas seisundis elupaigatüübid",
@@ -1070,9 +1070,9 @@
       "area": 4,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.2,
-      "ai_2031": 1.6,
-      "ai_2036": 1.5
+      "ai_2031": 1.5,
+      "ai_2035": 1.3,
+      "baseline_2035": 1.3
     },
     "leaf_93": {
       "name_et": "Keskkonnamaksud",
@@ -1086,9 +1086,9 @@
       "area": 4,
       "current_score": 3,
       "baseline_2031": 3.0,
-      "baseline_2036": 2.7,
-      "ai_2031": 3.1,
-      "ai_2036": 3.0
+      "ai_2031": 3,
+      "ai_2035": 2.8,
+      "baseline_2035": 2.8
     },
     "leaf_94": {
       "name_et": "Nõuetekohaselt puhastatud reovesi",
@@ -1102,9 +1102,9 @@
       "area": 4,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.2,
       "ai_2031": 1.6,
-      "ai_2036": 1.5
+      "ai_2035": 1.4,
+      "baseline_2035": 1.3
     },
     "leaf_95": {
       "name_et": "Ohtlike jäätmete teke",
@@ -1118,9 +1118,9 @@
       "area": 4,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.2,
-      "ai_2031": 1.6,
-      "ai_2036": 1.5
+      "ai_2031": 1.5,
+      "ai_2035": 1.3,
+      "baseline_2035": 1.3
     },
     "leaf_96": {
       "name_et": "Keskkonnajuhtimissüsteemide rakendamine",
@@ -1134,9 +1134,9 @@
       "area": 4,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.2,
-      "ai_2031": 1.6,
-      "ai_2036": 1.5
+      "ai_2031": 1.5,
+      "ai_2035": 1.3,
+      "baseline_2035": 1.3
     },
     "leaf_97": {
       "name_et": "Kaitstavad alad",
@@ -1150,9 +1150,9 @@
       "area": 4,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.2,
-      "ai_2031": 1.6,
-      "ai_2036": 1.5
+      "ai_2031": 1.5,
+      "ai_2035": 1.3,
+      "baseline_2035": 1.3
     },
     "leaf_98": {
       "name_et": "Olmejäätmete ringlussevõtt",
@@ -1166,9 +1166,9 @@
       "area": 4,
       "current_score": 2,
       "baseline_2031": 2.0,
-      "baseline_2036": 1.7,
-      "ai_2031": 2.1,
-      "ai_2036": 2.0
+      "ai_2031": 2,
+      "ai_2035": 1.8,
+      "baseline_2035": 1.8
     },
     "leaf_99": {
       "name_et": "Põhjaveevõtt",
@@ -1182,9 +1182,9 @@
       "area": 4,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.2,
-      "ai_2031": 1.6,
-      "ai_2036": 1.5
+      "ai_2031": 1.5,
+      "ai_2035": 1.3,
+      "baseline_2035": 1.3
     },
     "leaf_100": {
       "name_et": "Pinnavee seisund",
@@ -1198,9 +1198,9 @@
       "area": 4,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.2,
-      "ai_2031": 1.6,
-      "ai_2036": 1.5
+      "ai_2031": 1.5,
+      "ai_2035": 1.3,
+      "baseline_2035": 1.3
     },
     "leaf_101": {
       "name_et": "Rohealad linnades",
@@ -1214,9 +1214,9 @@
       "area": 4,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.2,
-      "ai_2031": 1.6,
-      "ai_2036": 1.5
+      "ai_2031": 1.5,
+      "ai_2035": 1.3,
+      "baseline_2035": 1.3
     },
     "leaf_102": {
       "name_et": "Peenosakeste heide",
@@ -1230,9 +1230,9 @@
       "area": 4,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.2,
-      "ai_2031": 1.6,
-      "ai_2036": 1.5
+      "ai_2031": 1.5,
+      "ai_2035": 1.3,
+      "baseline_2035": 1.3
     },
     "leaf_103": {
       "name_et": "Jäätmeteke",
@@ -1246,9 +1246,9 @@
       "area": 4,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.2,
-      "ai_2031": 1.6,
-      "ai_2036": 1.5
+      "ai_2031": 1.5,
+      "ai_2035": 1.3,
+      "baseline_2035": 1.3
     },
     "leaf_104": {
       "name_et": "Elamute ja mitteelamute energiatarve",
@@ -1262,9 +1262,9 @@
       "area": 4,
       "current_score": 2,
       "baseline_2031": 2.0,
-      "baseline_2036": 1.7,
-      "ai_2031": 2.1,
-      "ai_2036": 2.0
+      "ai_2031": 2,
+      "ai_2035": 1.8,
+      "baseline_2035": 1.8
     },
     "leaf_105": {
       "name_et": "Transpordisektori kasvuhoonegaaside heide",
@@ -1278,9 +1278,9 @@
       "area": 4,
       "current_score": 1,
       "baseline_2031": 1.0,
-      "baseline_2036": 0.7,
-      "ai_2031": 1.1,
-      "ai_2036": 1.0
+      "ai_2031": 1,
+      "ai_2035": 0.8,
+      "baseline_2035": 0.8
     },
     "leaf_106": {
       "name_et": "Ringleva materjali määr",
@@ -1294,9 +1294,9 @@
       "area": 4,
       "current_score": 1,
       "baseline_2031": 1.0,
-      "baseline_2036": 0.7,
       "ai_2031": 1.1,
-      "ai_2036": 1.0
+      "ai_2035": 0.9,
+      "baseline_2035": 0.8
     },
     "leaf_107": {
       "name_et": "Keskkonnatrendide indeks",
@@ -1310,9 +1310,9 @@
       "area": 4,
       "current_score": 2,
       "baseline_2031": 2.0,
-      "baseline_2036": 1.7,
-      "ai_2031": 2.1,
-      "ai_2036": 2.0
+      "ai_2031": 2,
+      "ai_2035": 1.8,
+      "baseline_2035": 1.8
     },
     "leaf_108": {
       "name_et": "Eesti säästev areng",
@@ -1326,9 +1326,9 @@
       "area": 4,
       "current_score": 1,
       "baseline_2031": 1.0,
-      "baseline_2036": 0.7,
-      "ai_2031": 1.1,
-      "ai_2036": 1.0
+      "ai_2031": 1,
+      "ai_2035": 0.8,
+      "baseline_2035": 0.8
     },
     "leaf_109": {
       "name_et": "Kasvuhoonegaaside  netoheitkogus",
@@ -1342,9 +1342,9 @@
       "area": 4,
       "current_score": 1,
       "baseline_2031": 1.0,
-      "baseline_2036": 0.7,
-      "ai_2031": 1.1,
-      "ai_2036": 1.0
+      "ai_2031": 1,
+      "ai_2035": 0.8,
+      "baseline_2035": 0.8
     },
     "leaf_110": {
       "name_et": "Keskkonnatrendide indeks",
@@ -1358,9 +1358,9 @@
       "area": 4,
       "current_score": 3,
       "baseline_2031": 3.0,
-      "baseline_2036": 2.7,
-      "ai_2031": 3.1,
-      "ai_2036": 3.0
+      "ai_2031": 3,
+      "ai_2035": 2.8,
+      "baseline_2035": 2.8
     },
     "leaf_111": {
       "name_et": "Ringleva materjali määr",
@@ -1374,9 +1374,9 @@
       "area": 4,
       "current_score": 3,
       "baseline_2031": 3.0,
-      "baseline_2036": 2.7,
-      "ai_2031": 3.1,
-      "ai_2036": 3.0
+      "ai_2031": 3,
+      "ai_2035": 2.9,
+      "baseline_2035": 2.8
     },
     "leaf_112": {
       "name_et": "Kasvuhoonegaaside  netoheitkogus",
@@ -1390,9 +1390,9 @@
       "area": 4,
       "current_score": 2,
       "baseline_2031": 2.0,
-      "baseline_2036": 1.7,
-      "ai_2031": 2.1,
-      "ai_2036": 2.0
+      "ai_2031": 2,
+      "ai_2035": 1.8,
+      "baseline_2035": 1.8
     },
     "leaf_121": {
       "name_et": "Ehitismälestised",
@@ -1406,9 +1406,9 @@
       "area": 14,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.2,
-      "ai_2031": 1.8,
-      "ai_2036": 2.2
+      "ai_2031": 1.6,
+      "ai_2035": 1.7,
+      "baseline_2035": 1.3
     },
     "leaf_122": {
       "name_et": "Kultuurielus osalemine",
@@ -1422,9 +1422,9 @@
       "area": 14,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.2,
-      "ai_2031": 1.8,
-      "ai_2036": 2.2
+      "ai_2031": 1.6,
+      "ai_2035": 1.7,
+      "baseline_2035": 1.3
     },
     "leaf_123": {
       "name_et": "Kultuuriharrastajad",
@@ -1438,9 +1438,9 @@
       "area": 14,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.2,
-      "ai_2031": 1.8,
-      "ai_2036": 2.2
+      "ai_2031": 1.6,
+      "ai_2035": 1.7,
+      "baseline_2035": 1.3
     },
     "leaf_124": {
       "name_et": "Kultuurielus osalemine",
@@ -1454,9 +1454,9 @@
       "area": 14,
       "current_score": 3,
       "baseline_2031": 3.0,
-      "baseline_2036": 2.7,
-      "ai_2031": 3.3,
-      "ai_2036": 3.5
+      "ai_2031": 3.1,
+      "ai_2035": 3.1,
+      "baseline_2035": 2.8
     },
     "leaf_125": {
       "name_et": "Kultuurielus osalemine",
@@ -1470,9 +1470,9 @@
       "area": 14,
       "current_score": 3,
       "baseline_2031": 3.0,
-      "baseline_2036": 2.7,
-      "ai_2031": 3.3,
-      "ai_2036": 3.5
+      "ai_2031": 3.1,
+      "ai_2035": 3.1,
+      "baseline_2035": 2.8
     },
     "leaf_131": {
       "name_et": "Eesti keele kõnelejad",
@@ -1486,9 +1486,9 @@
       "area": 15,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.4,
       "ai_2031": 1.5,
-      "ai_2036": 1.6
+      "ai_2035": 1.4,
+      "baseline_2035": 1.4
     },
     "leaf_132": {
       "name_et": "Määratlemata kodakondsus",
@@ -1502,9 +1502,9 @@
       "area": 15,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.4,
       "ai_2031": 1.5,
-      "ai_2036": 1.6
+      "ai_2035": 1.4,
+      "baseline_2035": 1.4
     },
     "leaf_133": {
       "name_et": "Kohortsündimuskordaja",
@@ -1518,9 +1518,9 @@
       "area": 15,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.4,
       "ai_2031": 1.5,
-      "ai_2036": 1.6
+      "ai_2035": 1.4,
+      "baseline_2035": 1.4
     },
     "leaf_134": {
       "name_et": "Loomulik iive",
@@ -1534,9 +1534,9 @@
       "area": 15,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.4,
       "ai_2031": 1.5,
-      "ai_2036": 1.6
+      "ai_2035": 1.4,
+      "baseline_2035": 1.4
     },
     "leaf_136": {
       "name_et": "Kohortsündimuskordaja",
@@ -1550,9 +1550,9 @@
       "area": 15,
       "current_score": 3,
       "baseline_2031": 3.0,
-      "baseline_2036": 2.9,
-      "ai_2031": 3.0,
-      "ai_2036": 3.1
+      "ai_2031": 3,
+      "ai_2035": 2.9,
+      "baseline_2035": 2.9
     },
     "leaf_137": {
       "name_et": "Ühiskonnarühmade vahelised kontaktid",
@@ -1566,9 +1566,9 @@
       "area": 15,
       "current_score": 3,
       "baseline_2031": 3.0,
-      "baseline_2036": 2.9,
-      "ai_2031": 3.0,
-      "ai_2036": 3.1
+      "ai_2031": 3,
+      "ai_2035": 2.9,
+      "baseline_2035": 2.9
     },
     "leaf_138": {
       "name_et": "Hoolivus ja koostöö",
@@ -1582,9 +1582,9 @@
       "area": 15,
       "current_score": 3,
       "baseline_2031": 3.0,
-      "baseline_2036": 2.9,
-      "ai_2031": 3.0,
-      "ai_2036": 3.1
+      "ai_2031": 3,
+      "ai_2035": 2.9,
+      "baseline_2035": 2.9
     },
     "leaf_139": {
       "name_et": "Eesti keele kõnelejate osatähtsus",
@@ -1598,9 +1598,9 @@
       "area": 15,
       "current_score": 3,
       "baseline_2031": 3.0,
-      "baseline_2036": 2.9,
-      "ai_2031": 3.0,
-      "ai_2036": 3.1
+      "ai_2031": 3,
+      "ai_2035": 3.0,
+      "baseline_2035": 2.9
     },
     "leaf_140": {
       "name_et": "Rahvaarv",
@@ -1614,9 +1614,9 @@
       "area": 15,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.4,
       "ai_2031": 1.5,
-      "ai_2036": 1.6
+      "ai_2035": 1.4,
+      "baseline_2035": 1.4
     },
     "leaf_141": {
       "name_et": "Tegus inimene",
@@ -1630,9 +1630,9 @@
       "area": 15,
       "current_score": 3,
       "baseline_2031": 3.0,
-      "baseline_2036": 2.9,
-      "ai_2031": 3.0,
-      "ai_2036": 3.1
+      "ai_2031": 3,
+      "ai_2035": 2.9,
+      "baseline_2035": 2.9
     },
     "leaf_144": {
       "name_et": "Ühiskonnarühmade vahelised kontaktid",
@@ -1646,9 +1646,9 @@
       "area": 15,
       "current_score": 3,
       "baseline_2031": 3.0,
-      "baseline_2036": 2.9,
-      "ai_2031": 3.0,
-      "ai_2036": 3.1
+      "ai_2031": 3,
+      "ai_2035": 2.9,
+      "baseline_2035": 2.9
     },
     "leaf_151": {
       "name_et": "Valitsussektori struktuurne eelarvepositsioon",
@@ -1662,9 +1662,9 @@
       "area": 10,
       "current_score": 1.5,
       "baseline_2031": 1.6,
-      "baseline_2036": 1.5,
-      "ai_2031": 2.1,
-      "ai_2036": 2.7
+      "ai_2031": 1.8,
+      "ai_2035": 1.9,
+      "baseline_2035": 1.5
     },
     "leaf_152": {
       "name_et": "Korruptsiooni tajumine",
@@ -1678,9 +1678,9 @@
       "area": 10,
       "current_score": 1.5,
       "baseline_2031": 1.6,
-      "baseline_2036": 1.5,
-      "ai_2031": 2.1,
-      "ai_2036": 2.7
+      "ai_2031": 1.9,
+      "ai_2035": 2.2,
+      "baseline_2035": 1.5
     },
     "leaf_153": {
       "name_et": "Valitsemissektori võlg",
@@ -1694,9 +1694,9 @@
       "area": 10,
       "current_score": 3,
       "baseline_2031": 3.1,
-      "baseline_2036": 3.0,
-      "ai_2031": 3.5,
-      "ai_2036": 3.5
+      "ai_2031": 3.1,
+      "ai_2035": 3.0,
+      "baseline_2035": 3.0
     },
     "leaf_155": {
       "name_et": "Avalike teenustega rahulolu",
@@ -1710,9 +1710,9 @@
       "area": 10,
       "current_score": 2,
       "baseline_2031": 2.1,
-      "baseline_2036": 2.0,
       "ai_2031": 2.6,
-      "ai_2036": 3.2
+      "ai_2035": 3.1,
+      "baseline_2035": 2.0
     },
     "leaf_156": {
       "name_et": "Kohalike omavalitsuste tulud",
@@ -1726,9 +1726,9 @@
       "area": 10,
       "current_score": 3,
       "baseline_2031": 3.1,
-      "baseline_2036": 3.0,
-      "ai_2031": 3.5,
-      "ai_2036": 3.5
+      "ai_2031": 3.1,
+      "ai_2035": 3.0,
+      "baseline_2035": 3.0
     },
     "leaf_157": {
       "name_et": "Globaalse kohalolu indeks",
@@ -1742,9 +1742,9 @@
       "area": 10,
       "current_score": 3,
       "baseline_2031": 3.1,
-      "baseline_2036": 3.0,
-      "ai_2031": 3.5,
-      "ai_2036": 3.5
+      "ai_2031": 3.4,
+      "ai_2035": 3.3,
+      "baseline_2035": 3.0
     },
     "leaf_158": {
       "name_et": "Usaldus riigi institutsioonide vastu",
@@ -1758,9 +1758,9 @@
       "area": 10,
       "current_score": 1,
       "baseline_2031": 1.1,
-      "baseline_2036": 1.0,
-      "ai_2031": 1.6,
-      "ai_2036": 2.2
+      "ai_2031": 1.4,
+      "ai_2035": 1.7,
+      "baseline_2035": 1.0
     },
     "leaf_159": {
       "name_et": "Hea valitsemise indeks",
@@ -1774,9 +1774,9 @@
       "area": 10,
       "current_score": 2,
       "baseline_2031": 2.1,
-      "baseline_2036": 2.0,
       "ai_2031": 2.6,
-      "ai_2036": 3.2
+      "ai_2035": 3.1,
+      "baseline_2035": 2.0
     },
     "leaf_160": {
       "name_et": "Hea valitsemise indeks: valitsemise tõhusus",
@@ -1790,9 +1790,9 @@
       "area": 10,
       "current_score": 3,
       "baseline_2031": 3.1,
-      "baseline_2036": 3.0,
-      "ai_2031": 3.5,
-      "ai_2036": 3.5
+      "ai_2031": 3.6,
+      "ai_2035": 3.5,
+      "baseline_2035": 3.0
     },
     "leaf_161": {
       "name_et": "Avalike digiteenustega rahulolu",
@@ -1806,9 +1806,9 @@
       "area": 10,
       "current_score": 3,
       "baseline_2031": 3.1,
-      "baseline_2036": 3.0,
-      "ai_2031": 3.5,
-      "ai_2036": 3.5
+      "ai_2031": 3.6,
+      "ai_2035": 3.5,
+      "baseline_2035": 3.0
     },
     "leaf_162": {
       "name_et": "Usaldus riigi institutsioonide vastu",
@@ -1822,9 +1822,9 @@
       "area": 10,
       "current_score": 1,
       "baseline_2031": 1.1,
-      "baseline_2036": 1.0,
-      "ai_2031": 1.6,
-      "ai_2036": 2.2
+      "ai_2031": 1.4,
+      "ai_2035": 1.7,
+      "baseline_2035": 1.0
     },
     "leaf_163": {
       "name_et": "Globaalse kohalolu indeks",
@@ -1838,9 +1838,9 @@
       "area": 10,
       "current_score": 3,
       "baseline_2031": 3.1,
-      "baseline_2036": 3.0,
-      "ai_2031": 3.5,
-      "ai_2036": 3.5
+      "ai_2031": 3.4,
+      "ai_2035": 3.3,
+      "baseline_2035": 3.0
     },
     "leaf_171": {
       "name_et": "Sõitjate- ja kaubavedu",
@@ -1854,9 +1854,9 @@
       "area": 7,
       "current_score": 1,
       "baseline_2031": 1.0,
-      "baseline_2036": 0.8,
       "ai_2031": 1.4,
-      "ai_2036": 1.8
+      "ai_2035": 1.7,
+      "baseline_2035": 0.8
     },
     "leaf_172": {
       "name_et": "Ühissõidukiga, jalgrattaga või jalgsi töölkäijad",
@@ -1870,9 +1870,9 @@
       "area": 7,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.3,
-      "ai_2031": 1.9,
-      "ai_2036": 2.3
+      "ai_2031": 1.7,
+      "ai_2035": 1.8,
+      "baseline_2035": 1.3
     },
     "leaf_173": {
       "name_et": "Ühissõidukiga, jalgrattaga või jalgsi töölkäijad",
@@ -1886,9 +1886,9 @@
       "area": 7,
       "current_score": 1,
       "baseline_2031": 1.0,
-      "baseline_2036": 0.8,
-      "ai_2031": 1.4,
-      "ai_2036": 1.8
+      "ai_2031": 1.2,
+      "ai_2035": 1.3,
+      "baseline_2035": 0.8
     },
     "leaf_181": {
       "name_et": "Ametlik arenguabi",
@@ -1902,9 +1902,9 @@
       "area": 12,
       "current_score": 1,
       "baseline_2031": 1.0,
-      "baseline_2036": 1.0,
-      "ai_2031": 1.0,
-      "ai_2036": 1.0
+      "ai_2031": 1,
+      "ai_2035": 1.0,
+      "baseline_2035": 1.0
     },
     "leaf_191": {
       "name_et": "Tööjõu tootlikkus EL-i võrdluses",
@@ -1918,9 +1918,9 @@
       "area": 5,
       "current_score": 2,
       "baseline_2031": 1.9,
-      "baseline_2036": 1.7,
       "ai_2031": 2.5,
-      "ai_2036": 3.2
+      "ai_2035": 3.1,
+      "baseline_2035": 1.7
     },
     "leaf_192": {
       "name_et": "SKP reaalkasv",
@@ -1934,9 +1934,9 @@
       "area": 5,
       "current_score": 1,
       "baseline_2031": 0.9,
-      "baseline_2036": 0.7,
-      "ai_2031": 1.5,
-      "ai_2036": 2.2
+      "ai_2031": 1.3,
+      "ai_2035": 1.6,
+      "baseline_2035": 0.7
     },
     "leaf_193": {
       "name_et": "Tööjõus osalemise määr",
@@ -1950,9 +1950,9 @@
       "area": 5,
       "current_score": 3,
       "baseline_2031": 2.9,
-      "baseline_2036": 2.7,
-      "ai_2031": 3.5,
-      "ai_2036": 3.5
+      "ai_2031": 3.1,
+      "ai_2035": 3.0,
+      "baseline_2035": 2.7
     },
     "leaf_194": {
       "name_et": "Kulutused teadus- ja arendustegevusele",
@@ -1966,9 +1966,9 @@
       "area": 5,
       "current_score": 2,
       "baseline_2031": 1.9,
-      "baseline_2036": 1.7,
-      "ai_2031": 2.5,
-      "ai_2036": 3.2
+      "ai_2031": 2.1,
+      "ai_2035": 2.2,
+      "baseline_2035": 1.7
     },
     "leaf_195": {
       "name_et": "Ökoinnovatsiooni indeksi osatähtsus EL-i keskmises",
@@ -1982,9 +1982,9 @@
       "area": 5,
       "current_score": 2,
       "baseline_2031": 1.9,
-      "baseline_2036": 1.7,
-      "ai_2031": 2.5,
-      "ai_2036": 3.2
+      "ai_2031": 2.3,
+      "ai_2035": 2.6,
+      "baseline_2035": 1.7
     },
     "leaf_196": {
       "name_et": "Erasektori teadlased ja insenerid",
@@ -1998,9 +1998,9 @@
       "area": 5,
       "current_score": 1.5,
       "baseline_2031": 1.4,
-      "baseline_2036": 1.2,
-      "ai_2031": 2.0,
-      "ai_2036": 2.7
+      "ai_2031": 1.6,
+      "ai_2035": 1.7,
+      "baseline_2035": 1.2
     },
     "leaf_197": {
       "name_et": "Ressursitootlikkus",
@@ -2014,9 +2014,9 @@
       "area": 5,
       "current_score": 1.5,
       "baseline_2031": 1.4,
-      "baseline_2036": 1.2,
-      "ai_2031": 2.0,
-      "ai_2036": 2.7
+      "ai_2031": 1.8,
+      "ai_2035": 2.1,
+      "baseline_2035": 1.2
     },
     "leaf_198": {
       "name_et": "Erasektori teadus- ja arendustegevuse kulud",
@@ -2030,9 +2030,9 @@
       "area": 5,
       "current_score": 1,
       "baseline_2031": 0.9,
-      "baseline_2036": 0.7,
-      "ai_2031": 1.5,
-      "ai_2036": 2.2
+      "ai_2031": 1.1,
+      "ai_2035": 1.2,
+      "baseline_2035": 0.7
     },
     "leaf_199": {
       "name_et": "Tööjõu tootlikkus EL-i võrdluses",
@@ -2046,9 +2046,9 @@
       "area": 5,
       "current_score": 2,
       "baseline_2031": 1.9,
-      "baseline_2036": 1.7,
       "ai_2031": 2.5,
-      "ai_2036": 3.2
+      "ai_2035": 3.1,
+      "baseline_2035": 1.7
     },
     "leaf_200": {
       "name_et": "Väljaspool Harjumaad loodud SKP elaniku kohta EL-i võrdluses",
@@ -2062,9 +2062,9 @@
       "area": 5,
       "current_score": 2,
       "baseline_2031": 1.9,
-      "baseline_2036": 1.7,
-      "ai_2031": 2.5,
-      "ai_2036": 3.2
+      "ai_2031": 2.3,
+      "ai_2035": 2.6,
+      "baseline_2035": 1.7
     },
     "leaf_201": {
       "name_et": "Ressursitootlikkus",
@@ -2078,9 +2078,9 @@
       "area": 5,
       "current_score": 2,
       "baseline_2031": 1.9,
-      "baseline_2036": 1.7,
-      "ai_2031": 2.5,
-      "ai_2036": 3.2
+      "ai_2031": 2.3,
+      "ai_2035": 2.6,
+      "baseline_2035": 1.7
     },
     "leaf_202": {
       "name_et": "Rahvusvahelise konkurentsivõime indeks",
@@ -2094,9 +2094,9 @@
       "area": 5,
       "current_score": 1,
       "baseline_2031": 0.9,
-      "baseline_2036": 0.7,
-      "ai_2031": 1.5,
-      "ai_2036": 2.2
+      "ai_2031": 1.3,
+      "ai_2035": 1.6,
+      "baseline_2035": 0.7
     },
     "leaf_203": {
       "name_et": "Erasektori teadlased ja insenerid",
@@ -2110,9 +2110,9 @@
       "area": 5,
       "current_score": 1,
       "baseline_2031": 0.9,
-      "baseline_2036": 0.7,
-      "ai_2031": 1.5,
-      "ai_2036": 2.2
+      "ai_2031": 1.1,
+      "ai_2035": 1.2,
+      "baseline_2035": 0.7
     },
     "leaf_204": {
       "name_et": "Väljaspool Harjumaad loodud SKP elaniku kohta EL-i võrdluses",
@@ -2126,9 +2126,9 @@
       "area": 5,
       "current_score": 2,
       "baseline_2031": 1.9,
-      "baseline_2036": 1.7,
-      "ai_2031": 2.5,
-      "ai_2036": 3.2
+      "ai_2031": 2.3,
+      "ai_2035": 2.6,
+      "baseline_2035": 1.7
     },
     "leaf_205": {
       "name_et": "Erasektori teadus- ja arendustegevuse kulud",
@@ -2142,9 +2142,9 @@
       "area": 5,
       "current_score": 1,
       "baseline_2031": 0.9,
-      "baseline_2036": 0.7,
-      "ai_2031": 1.5,
-      "ai_2036": 2.2
+      "ai_2031": 1.1,
+      "ai_2035": 1.2,
+      "baseline_2035": 0.7
     },
     "leaf_221": {
       "name_et": "Mahepõllumajandustoodang",
@@ -2158,9 +2158,9 @@
       "area": 6,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.5,
-      "ai_2031": 1.7,
-      "ai_2036": 1.9
+      "ai_2031": 1.5,
+      "ai_2035": 1.5,
+      "baseline_2035": 1.5
     },
     "leaf_222": {
       "name_et": "Taimekaitsevahendite turustamine",
@@ -2174,9 +2174,9 @@
       "area": 6,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.5,
-      "ai_2031": 1.7,
-      "ai_2036": 1.9
+      "ai_2031": 1.9,
+      "ai_2035": 2.2,
+      "baseline_2035": 1.5
     },
     "leaf_223": {
       "name_et": "Väetiste kasutamine",
@@ -2190,9 +2190,9 @@
       "area": 6,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.5,
-      "ai_2031": 1.7,
-      "ai_2036": 1.9
+      "ai_2031": 1.9,
+      "ai_2035": 2.2,
+      "baseline_2035": 1.5
     },
     "leaf_224": {
       "name_et": "Mahepõllumajandusmaa",
@@ -2206,9 +2206,9 @@
       "area": 6,
       "current_score": 3,
       "baseline_2031": 3.0,
-      "baseline_2036": 3.0,
-      "ai_2031": 3.2,
-      "ai_2036": 3.4
+      "ai_2031": 3,
+      "ai_2035": 3.0,
+      "baseline_2035": 3.0
     },
     "leaf_225": {
       "name_et": "Põllumajanduse tootlikkus",
@@ -2222,9 +2222,9 @@
       "area": 6,
       "current_score": 2,
       "baseline_2031": 2.0,
-      "baseline_2036": 2.0,
-      "ai_2031": 2.2,
-      "ai_2036": 2.4
+      "ai_2031": 2.4,
+      "ai_2035": 2.7,
+      "baseline_2035": 2.0
     },
     "leaf_231": {
       "name_et": "Absoluutse vaesuse määr",
@@ -2238,9 +2238,9 @@
       "area": 1,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.3,
       "ai_2031": 1.7,
-      "ai_2036": 2.0
+      "ai_2035": 1.9,
+      "baseline_2035": 1.3
     },
     "leaf_232": {
       "name_et": "Suure hoolduskoormusega elanikud",
@@ -2254,9 +2254,9 @@
       "area": 1,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.3,
-      "ai_2031": 1.7,
-      "ai_2036": 2.0
+      "ai_2031": 1.9,
+      "ai_2035": 2.5,
+      "baseline_2035": 1.3
     },
     "leaf_233": {
       "name_et": "Pikaajalise töötuse määr",
@@ -2270,9 +2270,9 @@
       "area": 1,
       "current_score": 3,
       "baseline_2031": 3.0,
-      "baseline_2036": 2.8,
       "ai_2031": 3.2,
-      "ai_2036": 3.5
+      "ai_2035": 3.4,
+      "baseline_2035": 2.8
     },
     "leaf_234": {
       "name_et": "Elukeskkonnaga rahulolu",
@@ -2286,9 +2286,9 @@
       "area": 1,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.3,
       "ai_2031": 1.7,
-      "ai_2036": 2.0
+      "ai_2035": 1.9,
+      "baseline_2035": 1.3
     },
     "leaf_235": {
       "name_et": "Sissetulek leibkonnaliikme kohta aastas",
@@ -2302,9 +2302,9 @@
       "area": 1,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.3,
       "ai_2031": 1.7,
-      "ai_2036": 2.0
+      "ai_2035": 1.9,
+      "baseline_2035": 1.3
     },
     "leaf_236": {
       "name_et": "Sissetulekute ebavõrdsus",
@@ -2318,9 +2318,9 @@
       "area": 1,
       "current_score": 2,
       "baseline_2031": 2.0,
-      "baseline_2036": 1.8,
-      "ai_2031": 2.2,
-      "ai_2036": 2.5
+      "ai_2031": 2,
+      "ai_2035": 1.8,
+      "baseline_2035": 1.8
     },
     "leaf_237": {
       "name_et": "Soolise võrdõiguslikkuse indeks",
@@ -2334,9 +2334,9 @@
       "area": 1,
       "current_score": 2,
       "baseline_2031": 2.0,
-      "baseline_2036": 1.8,
-      "ai_2031": 2.2,
-      "ai_2036": 2.5
+      "ai_2031": 2,
+      "ai_2035": 1.8,
+      "baseline_2035": 1.8
     },
     "leaf_238": {
       "name_et": "Ühisveevärgi vee kvaliteet",
@@ -2350,9 +2350,9 @@
       "area": 1,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.3,
       "ai_2031": 1.7,
-      "ai_2036": 2.0
+      "ai_2035": 1.9,
+      "baseline_2035": 1.3
     },
     "leaf_239": {
       "name_et": "Naisjuhid",
@@ -2366,9 +2366,9 @@
       "area": 1,
       "current_score": 3,
       "baseline_2031": 3.0,
-      "baseline_2036": 2.8,
-      "ai_2031": 3.2,
-      "ai_2036": 3.5
+      "ai_2031": 3,
+      "ai_2035": 2.8,
+      "baseline_2035": 2.8
     },
     "leaf_240": {
       "name_et": "Suhtelise vaesuse või sotsiaalse tõrjutuse määr",
@@ -2382,9 +2382,9 @@
       "area": 1,
       "current_score": 2,
       "baseline_2031": 2.0,
-      "baseline_2036": 1.8,
       "ai_2031": 2.2,
-      "ai_2036": 2.5
+      "ai_2035": 2.4,
+      "baseline_2035": 1.8
     },
     "leaf_241": {
       "name_et": "Sooline palgalõhe",
@@ -2398,9 +2398,9 @@
       "area": 1,
       "current_score": 1.5,
       "baseline_2031": 1.5,
-      "baseline_2036": 1.3,
-      "ai_2031": 1.7,
-      "ai_2036": 2.0
+      "ai_2031": 1.5,
+      "ai_2035": 1.3,
+      "baseline_2035": 1.3
     },
     "leaf_242": {
       "name_et": "Kodumajapidamiste säästumäär",
@@ -2414,9 +2414,9 @@
       "area": 1,
       "current_score": 1,
       "baseline_2031": 1.0,
-      "baseline_2036": 0.8,
-      "ai_2031": 1.2,
-      "ai_2036": 1.5
+      "ai_2031": 1,
+      "ai_2035": 0.8,
+      "baseline_2035": 0.8
     },
     "leaf_243": {
       "name_et": "Püsiva suhtelise vaesuse määr",
@@ -2430,9 +2430,9 @@
       "area": 1,
       "current_score": 2,
       "baseline_2031": 2.0,
-      "baseline_2036": 1.8,
       "ai_2031": 2.2,
-      "ai_2036": 2.5
+      "ai_2035": 2.4,
+      "baseline_2035": 1.8
     },
     "leaf_244": {
       "name_et": "Tajutud riskid",
@@ -2446,9 +2446,9 @@
       "area": 1,
       "current_score": 2,
       "baseline_2031": 2.0,
-      "baseline_2036": 1.8,
-      "ai_2031": 2.2,
-      "ai_2036": 2.5
+      "ai_2031": 2,
+      "ai_2035": 1.8,
+      "baseline_2035": 1.8
     },
     "leaf_245": {
       "name_et": "Püsiva suhtelise vaesuse määr",
@@ -2462,9 +2462,9 @@
       "area": 1,
       "current_score": 3,
       "baseline_2031": 3.0,
-      "baseline_2036": 2.8,
       "ai_2031": 3.2,
-      "ai_2036": 3.5
+      "ai_2035": 3.4,
+      "baseline_2035": 2.8
     },
     "leaf_246": {
       "name_et": "Elukeskkonnaga rahulolu",
@@ -2478,9 +2478,9 @@
       "area": 1,
       "current_score": 2,
       "baseline_2031": 2.0,
-      "baseline_2036": 1.8,
       "ai_2031": 2.2,
-      "ai_2036": 2.5
+      "ai_2035": 2.4,
+      "baseline_2035": 1.8
     },
     "leaf_247": {
       "name_et": "Soolise võrdõiguslikkuse indeks",
@@ -2494,9 +2494,9 @@
       "area": 1,
       "current_score": 2,
       "baseline_2031": 2.0,
-      "baseline_2036": 1.8,
-      "ai_2031": 2.2,
-      "ai_2036": 2.5
+      "ai_2031": 2,
+      "ai_2035": 1.8,
+      "baseline_2035": 1.8
     },
     "leaf_248": {
       "name_et": "Sooline palgalõhe",
@@ -2510,9 +2510,9 @@
       "area": 1,
       "current_score": 1,
       "baseline_2031": 1.0,
-      "baseline_2036": 0.8,
-      "ai_2031": 1.2,
-      "ai_2036": 1.5
+      "ai_2031": 1,
+      "ai_2035": 0.8,
+      "baseline_2035": 0.8
     },
     "leaf_249": {
       "name_et": "Sissetulekukvintiilide suhtekordaja",
@@ -2526,9 +2526,9 @@
       "area": 1,
       "current_score": 3,
       "baseline_2031": 3.0,
-      "baseline_2036": 2.8,
-      "ai_2031": 3.2,
-      "ai_2036": 3.5
+      "ai_2031": 3,
+      "ai_2035": 2.8,
+      "baseline_2035": 2.8
     },
     "leaf_250": {
       "name_et": "Suure hoolduskoormusega elanikud",
@@ -2542,9 +2542,9 @@
       "area": 1,
       "current_score": 1,
       "baseline_2031": 1.0,
-      "baseline_2036": 0.8,
-      "ai_2031": 1.2,
-      "ai_2036": 1.5
+      "ai_2031": 1.4,
+      "ai_2035": 2.0,
+      "baseline_2035": 0.8
     },
     "leaf_251": {
       "name_et": "Ligipääsetavus",
@@ -2558,9 +2558,9 @@
       "area": 1,
       "current_score": 2,
       "baseline_2031": 2.0,
-      "baseline_2036": 1.8,
-      "ai_2031": 2.2,
-      "ai_2036": 2.5
+      "ai_2031": 2.4,
+      "ai_2035": 3.0,
+      "baseline_2035": 1.8
     },
     "leaf_252": {
       "name_et": "Tööjõus osalemise määr",
@@ -2574,9 +2574,9 @@
       "area": 1,
       "current_score": 3,
       "baseline_2031": 3.0,
-      "baseline_2036": 2.8,
       "ai_2031": 3.2,
-      "ai_2036": 3.5
+      "ai_2035": 3.4,
+      "baseline_2035": 2.8
     },
     "leaf_253": {
       "name_et": "Püsiva suhtelise vaesuse määr",
@@ -2590,9 +2590,9 @@
       "area": 1,
       "current_score": 3,
       "baseline_2031": 3.0,
-      "baseline_2036": 2.8,
       "ai_2031": 3.2,
-      "ai_2036": 3.5
+      "ai_2035": 3.4,
+      "baseline_2035": 2.8
     }
   }
 }
