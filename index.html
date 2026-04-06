@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="et">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mõju Tamm — AI Impact Timeline</title>
+<title>Mõju Tamm — AI mõju ajajoon</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap');
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -60,6 +60,33 @@ body {
   font-weight: 600;
 }
 .track-btn:hover { border-color: #999; }
+.lang-toggle {
+  position: absolute;
+  top: 16px;
+  right: 24px;
+  display: flex;
+  gap: 0;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+}
+.lang-btn {
+  padding: 5px 12px;
+  border: none;
+  background: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  color: #888;
+  transition: all 0.2s;
+}
+.lang-btn.active {
+  background: #1a1a2e;
+  color: #fff;
+  font-weight: 600;
+}
+.lang-btn:not(:last-child) { border-right: 1px solid #ddd; }
 .slider-row {
   display: flex;
   align-items: center;
@@ -242,16 +269,21 @@ input[type=range]::-webkit-slider-thumb:active { cursor: grabbing; }
 </head>
 <body>
 
+<div class="lang-toggle">
+  <button class="lang-btn active" onclick="setLang('et')">ET</button>
+  <button class="lang-btn" onclick="setLang('en')">EN</button>
+</div>
+
 <div class="header">
   <h1>Mõju Tamm</h1>
-  <div class="subtitle">Estonia 2035 Strategic Goals — Differentiated AI Impact Assessment (2025)</div>
+  <div class="subtitle" id="subtitle">Eesti 2035 strateegilised eesmärgid — tehisintellekti mõjuhinnang (2025)</div>
 </div>
 
 <div class="controls">
   <div class="track-toggle">
-    <button class="track-btn" data-track="baseline" onclick="setTrack('baseline')">Baseline (no AI)</button>
-    <button class="track-btn active" data-track="ai" onclick="setTrack('ai')">With AI</button>
-    <button class="track-btn" data-track="delta" onclick="setTrack('delta')">AI Delta</button>
+    <button class="track-btn" data-track="baseline" onclick="setTrack('baseline')" id="btnBaseline">Baasstsenaarium (ilma TI-ta)</button>
+    <button class="track-btn active" data-track="ai" onclick="setTrack('ai')" id="btnAI">TI-ga</button>
+    <button class="track-btn" data-track="delta" onclick="setTrack('delta')" id="btnDelta">TI delta</button>
   </div>
   <div class="slider-row">
     <div class="year-label" id="yearLabel">2025</div>
@@ -262,7 +294,7 @@ input[type=range]::-webkit-slider-thumb:active { cursor: grabbing; }
       </div>
     </div>
   </div>
-  <div class="status-bar" id="statusBar">Current status from Tõetamm (tamm.stat.ee)</div>
+  <div class="status-bar" id="statusBar">Hetkeseisund Tõetammest (tamm.stat.ee)</div>
 </div>
 
 <div class="tree-wrapper">
@@ -1094,41 +1126,32 @@ input[type=range]::-webkit-slider-thumb:active { cursor: grabbing; }
 
 <div class="legend">
   <div class="legend-section" id="legendStatus">
-    <h3>Leaf Color — Status</h3>
-    <div class="legend-item"><div class="legend-swatch" style="background:#4DC14D"></div>On track / target met</div>
-    <div class="legend-item"><div class="legend-swatch" style="background:#FFBC45"></div>Some progress</div>
-    <div class="legend-item"><div class="legend-swatch" style="background:#F7664F"></div>Stalled / declining</div>
-    <div class="legend-item"><div class="legend-swatch" style="background:#C4C4C4"></div>Insufficient data</div>
+    <h3 data-et="Lehe värv — seisund" data-en="Leaf Color — Status"></h3>
+    <div class="legend-item"><div class="legend-swatch" style="background:#4DC14D"></div><span data-et="Eesmärk täidetud / graafikus" data-en="On track / target met"></span></div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#FFBC45"></div><span data-et="Mõningane edenemine" data-en="Some progress"></span></div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#F7664F"></div><span data-et="Seiskunud / languses" data-en="Stalled / declining"></span></div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#C4C4C4"></div><span data-et="Andmed puuduvad" data-en="Insufficient data"></span></div>
   </div>
   <div class="legend-section" id="legendDelta" style="display:none">
-    <h3>Leaf Color — AI Delta</h3>
-    <div class="legend-item"><div class="legend-swatch" style="background:rgb(35,160,35)"></div>Strong AI uplift</div>
-    <div class="legend-item"><div class="legend-swatch" style="background:rgb(60,200,70)"></div>Moderate uplift</div>
-    <div class="legend-item"><div class="legend-swatch" style="background:rgb(140,216,80)"></div>Modest uplift</div>
-    <div class="legend-item"><div class="legend-swatch" style="background:rgb(196,196,196)"></div>No meaningful effect</div>
-    <div class="legend-item"><div class="legend-swatch" style="background:rgb(200,55,55)"></div>Risk / negative</div>
+    <h3 data-et="Lehe värv — TI delta" data-en="Leaf Color — AI Delta"></h3>
+    <div class="legend-item"><div class="legend-swatch" style="background:rgb(35,160,35)"></div><span data-et="Tugev TI tõste" data-en="Strong AI uplift"></span></div>
+    <div class="legend-item"><div class="legend-swatch" style="background:rgb(60,200,70)"></div><span data-et="Mõõdukas tõste" data-en="Moderate uplift"></span></div>
+    <div class="legend-item"><div class="legend-swatch" style="background:rgb(140,216,80)"></div><span data-et="Tagasihoidlik tõste" data-en="Modest uplift"></span></div>
+    <div class="legend-item"><div class="legend-swatch" style="background:rgb(196,196,196)"></div><span data-et="Märkimisväärne mõju puudub" data-en="No meaningful effect"></span></div>
+    <div class="legend-item"><div class="legend-swatch" style="background:rgb(200,55,55)"></div><span data-et="Risk / negatiivne" data-en="Risk / negative"></span></div>
   </div>
-  <div class="legend-section">
-    <h3>How to Read</h3>
-    <p style="color:#666;max-width:340px;line-height:1.5">
-      Drag the slider to project Estonia 2035 indicator trajectories forward.
-      Toggle between <strong>Baseline</strong> (current trends, no AI) and 
-      <strong>With AI</strong> to see where AI changes the outlook.
-      Hover leaves for detail.
-    </p>
+  <div class="legend-section" id="legendHowTo">
+    <h3 data-et="Kuidas lugeda" data-en="How to Read"></h3>
+    <p style="color:#666;max-width:340px;line-height:1.5" data-et="Lohista liugurit, et projitseerida Eesti 2035 näitajate trajektoore. Vali <strong>Baasstsenaarium</strong> (praegused trendid, ilma TI-ta) ja <strong>TI-ga</strong> vahel, et näha, kuidas TI väljavaateid muudab. Hõlju lehtedel detailide jaoks." data-en="Drag the slider to project Estonia 2035 indicator trajectories forward. Toggle between <strong>Baseline</strong> (current trends, no AI) and <strong>With AI</strong> to see where AI changes the outlook. Hover leaves for detail."></p>
   </div>
-  <div class="legend-section">
-    <h3>Evidence Note</h3>
-    <p style="color:#666;max-width:280px;line-height:1.5">
-      Projections based on 22-dimension evidence assessment (30+ sources). 
-      Strongest evidence: digital gov, health diagnostics, transport, cyber.
-      Weakest: demographics, poverty, net climate.
-    </p>
+  <div class="legend-section" id="legendEvidence">
+    <h3 data-et="Tõendite märkus" data-en="Evidence Note"></h3>
+    <p style="color:#666;max-width:280px;line-height:1.5" data-et="Projektsioonid põhinevad 22 mõõtme tõendite hindamisel (30+ allikat). Tugevaim tõendusbaas: digiriik, tervishoiu diagnostika, transport, küberkaitse. Nõrgim: demograafia, vaesus, kliima netomõju." data-en="Projections based on 22-dimension evidence assessment (30+ sources). Strongest evidence: digital gov, health diagnostics, transport, cyber. Weakest: demographics, poverty, net climate."></p>
   </div>
 </div>
 
 <div class="source-note">
-  Tree structure from Tõetamm (tamm.stat.ee) by Statistics Estonia. AI trajectory projections based on evidence assessment, 2025.
+<span data-et="Puu struktuur Tõetammest (tamm.stat.ee), Statistikaamet. TI trajektooride projektsioonid põhinevad tõendite hindamisel, 2025." data-en="Tree structure from Tõetamm (tamm.stat.ee) by Statistics Estonia. AI trajectory projections based on evidence assessment, 2025."></span>
 </div>
 
 <script>
@@ -1140,6 +1163,40 @@ const LEAF_INFO = {"leaf_04": {"t": "Alkoholi tarbimine", "cv": "10.7000", "pv":
 
 let currentTrack = 'ai';
 let currentYear = 2025;
+let currentLang = 'et';
+
+const I18N_NAMES = {"Absoluutse vaesuse määr":"Absolute poverty rate","Alkoholi tarbimine":"Alcohol consumption","Ametlik arenguabi":"Official development aid","Avalike digiteenustega rahulolu":"Satisfaction with public digital services","Avalike teenustega rahulolu":"Satisfaction with public services","Baastasemel digipädevusega elanikud":"Population with basic digital skills","Doktorikraadiga inimesed":"People with doctoral degrees","Eesti keele kõnelejad":"Estonian language speakers","Eesti keele kõnelejate osatähtsus":"Share of Estonian language speakers","Eesti säästev areng":"Estonia sustainable development","Eestit turvaliseks riigiks pidavad elanikud":"Residents who consider Estonia safe","Ehitismälestised":"Architectural monuments","Elamute ja mitteelamute energiatarve":"Energy consumption of buildings","Elukeskkonnaga rahulolu":"Satisfaction with living environment","Energia tootlikkus":"Energy productivity","Energiakulutused kodumajapidamistes":"Household energy expenditure","Energiasõltuvus":"Energy dependency","Enesetapud":"Suicides","Erasektori teadlased ja insenerid":"Private sector researchers and engineers","Erasektori teadus- ja arendustegevuse kulud":"Private sector R&D expenditure","Eri- või kutseharidusega täiskasvanud":"Adults with specialised or vocational education","Eriarstiabita jäänud":"Unmet specialist care needs","Globaalse kohalolu indeks":"Global presence index","Happevihmasid põhjustavate gaaside heide":"Acid rain precursor gas emissions","Hea valitsemise indeks":"Good governance index","Hea valitsemise indeks: valitsemise tõhusus":"Good governance index: government effectiveness","Hoolivus ja koostöö":"Caring and cooperation","Huviharidus":"Hobby education","Inimkannatanutega liiklusõnnetused teedel":"Road traffic accidents with casualties","Interneti kasutamine":"Internet usage","Jäätmeteke":"Waste generation","Kaitstavad alad":"Protected areas","Kaitstavad merealad":"Marine protected areas","Kasvuhoonegaasid transpordisektoris":"Transport sector greenhouse gases","Kasvuhoonegaaside  netoheitkogus":"Net greenhouse gas emissions","Kasvuhoonegaaside heitkogused":"Greenhouse gas emissions","Keskkonnajuhtimissüsteemide rakendamine":"Environmental management systems adoption","Keskkonnamaksud":"Environmental taxes","Keskkonnatrendide indeks":"Environmental trends index","Kiire internetiühenduse osatähtsus":"Share of high-speed internet connections","Kodukoha turvalisus":"Neighbourhood safety","Kodumajapidamiste säästumäär":"Household savings rate","Kohalike omavalitsuste tulud":"Local government revenue","Kohortsündimuskordaja":"Cohort fertility rate","Kolmanda taseme haridus":"Tertiary education","Korruptsiooni tajumine":"Perceived corruption","Kudekarja biomass":"Spawning stock biomass","Kultuurielus osalemine":"Cultural participation","Kultuuriharrastajad":"Cultural hobbyists","Kulutused teadus- ja arendustegevusele":"R&D expenditure","Ligipääsetavus":"Accessibility","Loomulik iive":"Natural population growth","Läänemere seisund":"Baltic Sea condition","Madala haridustasemega noored":"Youth with low education level","Mahepõllumajandusmaa":"Organic farmland","Mahepõllumajandustoodang":"Organic agricultural production","Määratlemata kodakondsus":"Undetermined citizenship","Naisjuhid":"Female managers","Noored, kes ei õpi ega tööta":"Youth not in education, employment or training (NEET)","Nõuetekohaselt puhastatud reovesi":"Properly treated wastewater","Ohtlike jäätmete teke":"Hazardous waste generation","Ohtlikesse nakkushaigustesse haigestumine":"Dangerous infectious disease incidence","Olmejäätmete ringlussevõtt":"Municipal waste recycling rate","Oodatav eluiga":"Life expectancy","Peenosakeste heide":"Fine particulate emissions","Pikaajalise töötuse määr":"Long-term unemployment rate","Pinnavee seisund":"Surface water condition","Psüühika- ja käitumishäired":"Mental and behavioural disorders","Põhjaveevõtt":"Groundwater abstraction","Põlevkivi kaevandamine":"Oil shale mining","Põllumajanduse tootlikkus":"Agricultural productivity","Püsiva suhtelise vaesuse määr":"Persistent at-risk-of-poverty rate","Rahvaarv":"Population","Rahvusvahelise konkurentsivõime indeks":"International competitiveness index","Rangelt kaitstavad metsamaad":"Strictly protected forest areas","Ressursitootlikkus":"Resource productivity","Ringleva materjali määr":"Circular material use rate","Rohealad linnades":"Urban green areas","SKP reaalkasv":"Real GDP growth","Sissetulek leibkonnaliikme kohta aastas":"Annual income per household member","Sissetulekukvintiilide suhtekordaja":"Income quintile share ratio","Sissetulekute ebavõrdsus":"Income inequality","Soodsas seisundis elupaigatüübid":"Habitat types in favourable condition","Soodsas seisundis liigid":"Species in favourable condition","Sooline palgalõhe":"Gender pay gap","Soolise võrdõiguslikkuse indeks":"Gender equality index","Suhtelise vaesuse või sotsiaalse tõrjutuse määr":"At-risk-of-poverty or social exclusion rate","Suremus kroonilistesse haigustesse":"Chronic disease mortality","Suure hoolduskoormusega elanikud":"Residents with high care burden","Sõitjate- ja kaubavedu":"Passenger and freight transport","Taastuvenergia":"Renewable energy","Taimekaitsevahendite turustamine":"Plant protection products sales","Tajutud riskid":"Perceived risks","Tegus inimene":"Active person","Tervena elada jäänud aastad":"Healthy life years remaining","Tippsooritustasemel õpilased":"Top-performing students","Transpordisektori kasvuhoonegaaside heide":"Transport sector greenhouse gas emissions","Tubaka tarbimine":"Tobacco consumption","Täiskasvanute elukestvas õppes osalemine":"Adult participation in lifelong learning","Tööjõu tootlikkus EL-i võrdluses":"Labour productivity compared to EU","Tööjõus osalemise määr":"Labour force participation rate","Usaldus riigi institutsioonide vastu":"Trust in state institutions","Valitsemissektori võlg":"Government debt","Valitsussektori struktuurne eelarvepositsioon":"Structural budget position","Väetiste kasutamine":"Fertiliser use","Vägivalla ohvrid":"Violence victims","Vägivallas hukkunud":"Violence fatalities","Välditavad surmad":"Preventable deaths","Väljaspool Harjumaad loodud SKP elaniku kohta EL-i võrdluses":"GDP per capita outside Harju County compared to EU","Õnnetusjuhtumite, mürgistuste ja traumade tagajärjel hukkunute arv":"Deaths from accidents, poisoning and trauma","Ökoinnovatsiooni indeksi osatähtsus EL-i keskmises":"Eco-innovation index share relative to EU average","Ühiskonnarühmade vahelised kontaktid":"Inter-group contacts","Ühissõidukiga, jalgrattaga või jalgsi töölkäijad":"Commuters by public transport, bicycle or on foot","Ühisveevärgi vee kvaliteet":"Public water supply quality","Ülemäärase kehakaaluga elanikud":"Overweight population"};
+
+const I18N_UNITS = {"%":"%","":"","surma 100 000 elaniku kohta":"deaths per 100,000 population","aastat":"years","tuhat tonni":"thousand tonnes","miljonit tonni CO2 ekvivalenti":"million tonnes CO2 equivalent","juhtumit 100 000 elaniku kohta":"cases per 100,000 population","kilogrammi":"kilograms","tonni":"tonnes","miljonit kuupmeetrit":"million cubic metres","koht":"rank","last":"children","kontakti":"contacts","% SKP-st":"% of GDP","hõivatut 1000 elaniku kohta":"employed per 1,000 population","eurot kilogrammi kohta":"euros per kilogram","eurot":"euros","liitrit absoluutalkoholi":"litres of pure alcohol","surma":"deaths","eurot kilogrammi õliekvivalendi kohta":"euros per kg oil equivalent","surma100000 elaniku kohta":"deaths per 100,000 population","inimkannatanutega liiklusõnnetust":"road accidents with casualties","hukkunut 100 000 elaniku kohta":"fatalities per 100,000 population","tuhat tonni CO2 ekvivalendi kohta":"thousand tonnes CO2 equivalent","tuhat tonni hapestumise ekvivalenti":"thousand tonnes acidification equivalent","organisatsiooni":"organisations","teravatt-tundi":"terawatt-hours","tuhat tonni CO2 ekvivalenti":"thousand tonnes CO2 equivalent","tuhat inimest":"thousand people","inimest":"people","kilogrammi hektari kohta":"kilograms per hectare","punkti":"points","väärtuspunkti":"value points","protsendipunkti":"percentage points"};
+
+const I18N_UI = {
+  subtitle: {et: "Eesti 2035 strateegilised eesmärgid — tehisintellekti mõjuhinnang (2025)", en: "Estonia 2035 Strategic Goals — Differentiated AI Impact Assessment (2025)"},
+  btnBaseline: {et: "Baasstsenaarium (ilma TI-ta)", en: "Baseline (no AI)"},
+  btnAI: {et: "TI-ga", en: "With AI"},
+  btnDelta: {et: "TI delta", en: "AI Delta"},
+  statusDefault: {et: "Hetkeseisund Tõetammest (tamm.stat.ee)", en: "Current status from Tõetamm (tamm.stat.ee)"},
+  statusDeltaStart: {et: "Aastal 2025 on baasstsenaarium ja TI identsed — lohista liugurit edasi, et delta ilmneks", en: "At 2025, baseline and AI are identical — drag the slider forward to see the delta emerge"},
+  current: {et: "Praegune", en: "Current"},
+  target: {et: "Eesmärk", en: "Target"},
+  baseline: {et: "Baas", en: "Baseline"},
+  withAI: {et: "TI-ga", en: "With AI"},
+  onTrack: {et: "Graafikus", en: "On track"},
+  progress: {et: "Edenemine", en: "Progress"},
+  atRisk: {et: "Ohus", en: "At risk"},
+  stalled: {et: "Seiskunud", en: "Stalled"},
+  strongUplift: {et: "Tugev tõste", en: "Strong uplift"},
+  moderateUplift: {et: "Mõõdukas tõste", en: "Moderate uplift"},
+  modestUplift: {et: "Tagasihoidlik tõste", en: "Modest uplift"},
+  noEffect: {et: "Märkimisväärne mõju puudub", en: "No meaningful effect"},
+  riskArea: {et: "Riskiala", en: "Risk area"},
+  deltaStatus: {et: "TI delta aastal", en: "AI delta at"},
+  uplift: {et: "tõste", en: "uplift"},
+  across: {et: "üle", en: "across"},
+  indicators: {et: "näitaja", en: "indicators"},
+  greenHelps: {et: "roheline = TI aitab, hall = mõjuta, punane = risk", en: "green = AI helps, grey = no effect, red = risk"},
+  projected: {et: "Projektsioon", en: "Projected"},
+  aiImpact: {et: "TI mõju üle", en: "AI impact across"},
+};
 
 function scoreToColor(score) {
   const s = Math.max(0.5, Math.min(3.5, score));
@@ -1235,18 +1292,18 @@ function updateTree() {
   const bar = document.getElementById('statusBar');
   if (currentYear === 2025) {
     if (currentTrack === 'delta') {
-      bar.innerHTML = 'At 2025, baseline and AI are identical — drag the slider forward to see the delta emerge';
+      bar.innerHTML = I18N_UI.statusDeltaStart[currentLang];
     } else {
-      bar.innerHTML = 'Current status from Tõetamm (tamm.stat.ee)';
+      bar.innerHTML = I18N_UI.statusDefault[currentLang];
     }
   } else {
     const delta = (totalAI - totalBaseline).toFixed(1);
     const pct = ((totalAI - totalBaseline) / totalBaseline * 100).toFixed(1);
     const cls = delta > 0 ? 'pos' : delta < 0 ? 'neg' : 'neu';
     if (currentTrack === 'delta') {
-      bar.innerHTML = `AI delta at ${currentYear}: <span class="delta ${cls}">${delta > 0 ? '+' : ''}${pct}% uplift</span> across ${count} indicators — green = AI helps, grey = no effect, red = risk`;
+      bar.innerHTML = `${I18N_UI.deltaStatus[currentLang]} ${currentYear}: <span class="delta ${cls}">${delta > 0 ? '+' : ''}${pct}% ${I18N_UI.uplift[currentLang]}</span> ${I18N_UI.across[currentLang]} ${count} ${I18N_UI.indicators[currentLang]} — ${I18N_UI.greenHelps[currentLang]}`;
     } else {
-      bar.innerHTML = `Projected ${currentYear} — AI impact across ${count} indicators: <span class="delta ${cls}">${delta > 0 ? '+' : ''}${pct}%</span>`;
+      bar.innerHTML = `${I18N_UI.projected[currentLang]} ${currentYear} — ${I18N_UI.aiImpact[currentLang]} ${count} ${I18N_UI.indicators[currentLang]}: <span class="delta ${cls}">${delta > 0 ? '+' : ''}${pct}%</span>`;
     }
   }
 }
@@ -1258,6 +1315,22 @@ function setTrack(track) {
   });
   document.getElementById('legendStatus').style.display = track === 'delta' ? 'none' : '';
   document.getElementById('legendDelta').style.display = track === 'delta' ? '' : 'none';
+  updateTree();
+}
+
+function setLang(lang) {
+  currentLang = lang;
+  document.documentElement.lang = lang;
+  document.querySelectorAll('.lang-btn').forEach(b => {
+    b.classList.toggle('active', b.textContent === lang.toUpperCase());
+  });
+  document.getElementById('subtitle').textContent = I18N_UI.subtitle[lang];
+  document.getElementById('btnBaseline').textContent = I18N_UI.btnBaseline[lang];
+  document.getElementById('btnAI').textContent = I18N_UI.btnAI[lang];
+  document.getElementById('btnDelta').textContent = I18N_UI.btnDelta[lang];
+  document.querySelectorAll('[data-et]').forEach(el => {
+    el.innerHTML = el.getAttribute('data-' + lang);
+  });
   updateTree();
 }
 
@@ -1273,19 +1346,20 @@ slider.addEventListener('input', () => {
 const tooltip = document.getElementById('tooltip');
 
 function scoreName(s) {
-  if (s >= 2.8) return 'On track';
-  if (s >= 2.0) return 'Progress';
-  if (s >= 1.3) return 'At risk';
-  return 'Stalled';
+  if (s >= 2.8) return I18N_UI.onTrack[currentLang];
+  if (s >= 2.0) return I18N_UI.progress[currentLang];
+  if (s >= 1.3) return I18N_UI.atRisk[currentLang];
+  return I18N_UI.stalled[currentLang];
 }
 
 function fmtVal(v, unit) {
   if (!v) return '—';
   let n = parseFloat(v);
   if (isNaN(n)) return v;
-  // Clean up trailing zeros
   let s = n % 1 === 0 ? n.toString() : n.toFixed(1);
-  return s + (unit ? ' ' + unit : '');
+  let u = unit || '';
+  if (currentLang === 'en' && I18N_UNITS[u]) u = I18N_UNITS[u];
+  return s + (u ? ' ' + u : '');
 }
 
 document.querySelectorAll('g[data-indicator]').forEach(g => {
@@ -1302,17 +1376,15 @@ document.querySelectorAll('g[data-indicator]').forEach(g => {
     const a31 = (t.ai_2031 || cur);
     const a35 = (t.ai_2035 || cur);
     
-    // Indicator title (Estonian)
-    const title = info.t || leafId;
-    const areaLabel = impact.label || '?';
-    const areaLabelEt = impact.label_et || '';
-    
-    // Current value and goal
+    const titleEt = info.t || leafId;
+    const title = currentLang === 'en' ? (I18N_NAMES[titleEt] || titleEt) : titleEt;
+    const areaLabel = currentLang === 'en' ? (impact.label || '?') : (impact.label_et || '?');
+
     let valLine = '';
     if (info.cv) {
-      valLine += `<strong>Current (${info.cvl || '?'}):</strong> ${fmtVal(info.cv, info.u)}`;
+      valLine += `<strong>${I18N_UI.current[currentLang]} (${info.cvl || '?'}):</strong> ${fmtVal(info.cv, info.u)}`;
       if (info.g) {
-        valLine += ` &nbsp;|&nbsp; <strong>Target${info.gl ? ' (' + info.gl + ')' : ''}:</strong> ${fmtVal(info.g, info.u)}`;
+        valLine += ` &nbsp;|&nbsp; <strong>${I18N_UI.target[currentLang]}${info.gl ? ' (' + info.gl + ')' : ''}:</strong> ${fmtVal(info.g, info.u)}`;
       }
     }
     
@@ -1325,17 +1397,17 @@ document.querySelectorAll('g[data-indicator]').forEach(g => {
     if (currentTrack === 'delta') {
       const sign = curDelta > 0 ? '+' : '';
       const dColor = deltaToColor(curDelta);
-      const dLabel = curDelta > 0.5 ? 'Strong uplift' : curDelta > 0.2 ? 'Moderate uplift' : curDelta > 0.05 ? 'Modest uplift' : curDelta > -0.05 ? 'No meaningful effect' : 'Risk area';
+      const dLabel = curDelta > 0.5 ? I18N_UI.strongUplift[currentLang] : curDelta > 0.2 ? I18N_UI.moderateUplift[currentLang] : curDelta > 0.05 ? I18N_UI.modestUplift[currentLang] : curDelta > -0.05 ? I18N_UI.noEffect[currentLang] : I18N_UI.riskArea[currentLang];
       deltaSection = `<div style="font-size:13px;font-weight:600;margin-bottom:8px;padding:6px 10px;border-radius:6px;background:${dColor};color:#fff;display:inline-block">${dLabel} (${sign}${curDelta.toFixed(2)})</div><br>`;
     }
 
     tooltip.innerHTML = `
       <div class="tt-indicator">${title}</div>
-      <span class="tt-area-tag">${areaLabelEt} — ${areaLabel}</span>
+      <span class="tt-area-tag">${areaLabel}</span>
       ${valLine ? '<div class="tt-values">' + valLine + '</div>' : ''}
       ${deltaSection}
       <div class="tt-grid">
-        <div class="hdr"></div><div class="hdr">Baseline</div><div class="hdr">With AI</div>
+        <div class="hdr"></div><div class="hdr">${I18N_UI.baseline[currentLang]}</div><div class="hdr">${I18N_UI.withAI[currentLang]}</div>
         <div>2025</div>
         <div><span class="tt-dot" style="background:${scoreToColor(cur)}"></span>${scoreName(cur)}</div>
         <div><span class="tt-dot" style="background:${scoreToColor(cur)}"></span>${scoreName(cur)}</div>
